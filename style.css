@@ -1,12 +1,43 @@
-*{
+
+body, #nav, #opciones{
     background-color: black;
+    margin: 0 ;
+    padding: 0;
 }
 
-#titulo{
-    color: blanchedalmond;
+
+#opNavegacion, #op{
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+#op:hover{
+    background-color: #444444;
+    border-radius: 1em;
+}
+
+ul li a{
+    min-width: 5em;
     text-align: center;
 }
 
-#n_nav{
-    color: aliceblue;
+ul li{
+    padding: 0 0 0 0;
+}
+
+#title{
+    border: 1px solid red;
+    background-image: radial-gradient(circle at 53.67% 54.37%, #6973ff 0, #8d69f6 4.17%, #a95fe9 8.33%, #bf53db 12.5%, #d147cb 16.67%, #df3bba 20.83%, #ea2fa9 25%, #f22496 29.17%, #f71e84 33.33%, #fa1e72 37.5%, #fa265f 41.67%, #f7304e 45.83%, #f23c3c 50%, #eb482a 54.17%, #e25314 58.33%, #d85d00 62.5%, #cc6700 66.67%, #bf6f00 70.83%, #b17700 75%, #a27e00 79.17%, #928400 83.33%, #808900 87.5%, #6d8e00 91.67%, #589200 95.83%, #3e9500 100%);
+    padding: 2em;
+    text-align: center;
+    min-width: 30em;
+    margin: 0 0 1px 0;
+}
+
+#imgLogoEncabezado img{
+    height: 5em;
+    padding: 0 2em 0 2em;
 }
