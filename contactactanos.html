@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
 
 </head>
 
@@ -18,21 +19,54 @@
 
     <header>
         <div class="container">
-            <div style="background-color: #6E85B7; border-radius: 1em; border: 2px solid #3AB0FF;">
-                <div style="text-align: center;">
-                    <h1 style="text-align: center; padding: 1em 0 0 0; color: #DFF6FF;">Formulario de evaluación sobre
-                        clases prescenciales</h1>
-                    <img src="./unc.png" alt="Imagen Unc" width="100px">
-                </div>
-                <hr style="border: 2px solid #3AB0FF;color: #3AB0FF;">
-                <p style="color: white; margin: 1em; padding-bottom: 1em;">El presente formulario es para saber como se
-                    sienten los estudiantes en el nuevo ciclo academico 2022-I, y saber la experiencia de cada uno de
-                    los estudiantes de la Universidad Nacional de Cajamarca.</p>
+          <div id="title">
+            <h1>INSTITUTO DE MUSICA UNC CAJAMARCA</h1>
+            <div id="imgLogoEncabezado" >
+              <img src="./logo.png" alt="Logo">
+              <img src="./logoUNC.png" alt="LogoUNC">
             </div>
-            <hr style="color: blue;">
-            <p></p>
+          </div>
+          <div>
+            <nav class="navbar navbar-expand-sm navbar-light bg-light" id="nav">
+              <button id="encabezado1" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#opciones">
+                <span id="encabezado" class="navbar-toggler-icon"></span>
+              </button>
+    
+              <!-- enlaces -->
+              <div class="collapse navbar-collapse" id="opciones">
+                <ul class="navbar-nav" id="opNavegacion">
+                  <li class="nav-item" id="eeeee">
+                    <a id="op" class="nav-link" href="./index.html">Inicio</a>
+                  </li id="space">
+                  <li class="nav-item">
+                    <a id="op" class="nav-link" href="./mision.html">Misión</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="op" class="nav-link" href="./vision.html">Visión</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="op" class="nav-link" href="./cursos.html">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="op" class="nav-link" href="./asesoria.html">Asesoria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="op" class="nav-link" href="./contactactanos.html">Contactanos</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+    
+          <div>
+            <!-- <div>
+              <img src="./logo.png" alt="Logo">
+            </div> -->
+          </div>
+    
         </div>
-    </header>
+      </header>
 
     <main>
         <form action="#">
@@ -63,7 +97,6 @@
                             <label for="comentarios" class="form-label">Deje aquí sus comentarios</label>
                             <textarea class="form-control" rows="5" id="comentarios" name="comentarios"></textarea>
                           </div> 
-                          <button type="submit" class="btn btn-primary">Enviar</button> 
                         <div style="color:#B8FFF9;" class="form-text">Campo obligatorio *</div>
 
 
